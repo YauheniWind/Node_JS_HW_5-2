@@ -1,0 +1,13 @@
+{
+  "name": "node_js_hw_5-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "go": "node script.js /Users/evgenijgravdin/Desktop/Node_JS_HW_5-2/nothingleftnothingleft.mp3 /Users/evgenijgravdin/Desktop/Node_JS_HW_5-2/output/nothingleftnothingleft"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
