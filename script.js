@@ -5,8 +5,8 @@ const { createGzip } = require('zlib');
 const { pipeline } = require('stream');
 
 const gzip = createGzip();
-const source = fs.createReadStream(path.resolve(process.argv[2]));
-const destination = fs.createWriteStream(path.resolve(process.argv[3]) + '.zip');
+const source = fs.createReadStream(path.resolve(process.env.INPUT));
+const destination = fs.createWriteStream(path.resolve(process.env.OUTPUT) + '.zip');
 
 pipeline(source, gzip, destination, (err) => {
     if (err) {

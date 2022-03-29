@@ -5,7 +5,7 @@
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "go": "node script.js /Users/evgenijgravdin/Desktop/Node_JS_HW_5-2/nothingleftnothingleft.mp3 /Users/evgenijgravdin/Desktop/Node_JS_HW_5-2/output/nothingleftnothingleft.mp3"
+    "go": "INPUT=nothingleftnothingleft.mp3 OUTPUT=output/nothingleftnothingleft.mp3 node script.js"
   },
   "keywords": [],
   "author": "",
