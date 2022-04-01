@@ -5,9 +5,12 @@
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "go": "INPUT=nothingleftnothingleft.mp3 OUTPUT=output/nothingleftnothingleft.mp3 node script.js"
+    "go": "node script.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0"
+  }
 }
